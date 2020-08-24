@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.Fredericka {
+  font-family: 'Fredericka the Great', sans-serif;
+  font-weight: 400;
+}
+
+.sourceSans {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Pacifico {
+  font-family: 'Pacifico', sans-serif;
+}
