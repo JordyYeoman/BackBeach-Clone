@@ -6,9 +6,9 @@ const Navigation = () => {
 
   const iconSizes = '27px';
   return (
-    <nav className="w-full text-blue-800 bg-white font-semibold border-b border-gray-200 sourceSans">
-      <ul className="flex-col sm:flex-row flex py-4 justify-between px-4 lg:px-32">
-        <li className="flex sm:hidden justify-between border-b border-gray-200 py-2">
+    <nav className="flex flex-col w-full text-blue-800 items-center bg-white font-semibold border-b border-gray-200 sourceSans">
+      <ul className="flex flex-col items-center w-full sm:flex-row py-4 justify-between px-4 lg:w-4/5 xl:max-w-screen-xl">
+        <li className="flex w-full sm:hidden justify-between border-b border-gray-200 py-2">
           <span className="flex items-center px-2">
             <svg
               className="mx-1"
@@ -60,10 +60,10 @@ const Navigation = () => {
           <img
             src="/assets/wine-cups.png"
             alt="beach resturaunt logo"
-            className="h-64 sm:h-24 pr-10"
+            className="auto pr-10"
           />
         </li>
-        <li className="flex items-center justify-center">
+        <li className="flex items-center justify-center w-full">
           <Link href="/">
             <a className="w-full sm:w-auto flex flex-col items-center">
               <div className="flex flex-row py-2">
@@ -191,7 +191,7 @@ const Navigation = () => {
           </button>
         </li>
       </ul>
-      <ul className="hidden md:flex py-4 justify-between px-8">
+      <ul className="hidden md:flex py-4 justify-between px-8 w-full lg:w-4/5 xl:max-w-screen-xl">
         <li>Home</li>
         <li>Dining</li>
         <li>Lunch</li>
