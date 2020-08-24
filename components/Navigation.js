@@ -6,7 +6,7 @@ const Navigation = () => {
 
   const iconSizes = '27px';
   return (
-    <nav className="flex flex-col w-full text-blue-800 items-center bg-white font-semibold border-b border-gray-200 sourceSans">
+    <nav className="relative flex flex-col w-full h-auto text-blue-800 items-center bg-white font-semibold border-b border-gray-200 sourceSans">
       <ul className="flex flex-col items-center w-full sm:flex-row py-4 justify-between px-4 lg:w-4/5 xl:max-w-screen-xl">
         <li className="flex w-full sm:hidden justify-between border-b border-gray-200 py-2">
           <span className="flex items-center px-2">
