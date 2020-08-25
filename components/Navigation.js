@@ -60,7 +60,7 @@ const Navigation = () => {
           <img
             src="/assets/wine-cups.png"
             alt="beach resturaunt logo"
-            className="w-full max-w-xs"
+            className="max-w-xs"
           />
         </li>
         <li className="flex items-center justify-center w-full">
