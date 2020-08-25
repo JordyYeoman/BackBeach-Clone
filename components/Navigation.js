@@ -125,7 +125,7 @@ const Navigation = () => {
             </a>
           </Link>
         </li>
-        <li className="hidden md:flex items-center justify-center px-0 lg:px-20">
+        <li className="hidden md:flex items-center justify-center px-0 lg:px-12">
           <svg
             version="1.1"
             id="Capa_1"
@@ -191,16 +191,20 @@ const Navigation = () => {
           </button>
         </li>
       </ul>
-      <ul className="hidden md:flex py-4 justify-between px-8 w-full lg:w-4/5 xl:max-w-screen-xl">
-        <li>Home</li>
-        <li>Dining</li>
-        <li>Lunch</li>
-        <li>Functions</li>
-        <li>Breakfast</li>
-        <li>What's On</li>
-        <li>Reservations</li>
-        <li>About</li>
-        <li>Contact</li>
+      <ul
+        className={`flex-col flex-grow ${
+          isMobileNavOpen ? 'flex' : 'hidden'
+        } md:flex md:flex-row py-4 justify-between px-8 w-full lg:w-4/5 xl:max-w-screen-xl text-center text-2xl md:text-base`}
+      >
+        <li className="py-2 md:py-0">Home</li>
+        <li className="py-2 md:py-0">Dining</li>
+        <li className="py-2 md:py-0">Lunch</li>
+        <li className="py-2 md:py-0">Functions</li>
+        <li className="py-2 md:py-0">Breakfast</li>
+        <li className="py-2 md:py-0">What's On</li>
+        <li className="py-2 md:py-0">Reservations</li>
+        <li className="py-2 md:py-0">About</li>
+        <li className="py-2 md:py-0">Contact</li>
       </ul>
     </nav>
   );

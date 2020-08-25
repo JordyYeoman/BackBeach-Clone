@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Navigation from '../components/Navigation.js';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 const Layout = ({ children }) => {
   return (
@@ -11,6 +12,7 @@ const Layout = ({ children }) => {
       </Head>
       <Navigation />
       <div className="content-wrapper pb-8 sm:pb-0">{children}</div>
+      <Footer />
     </div>
   );
 };

@@ -41,13 +41,12 @@
 
 .menu-title {
   bottom: 60px;
-  right: -20px;
+  right: 15px;
 }
 
 .background-img1 {
   background-image: url('/assets/news-bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-blend-mode: multiply;
 }
 
@@ -78,4 +77,41 @@
   bottom: 0;
   right: 0;
   background-image: url('/assets/Vector2.png');
+}
+
+.hero-circle2 {
+  border-width: 18px;
+  padding-bottom: 12rem;
+}
+.circle-item2 {
+  width: 14rem;
+}
+
+@media (max-width: 420px) {
+  .hero-circle {
+    padding-bottom: 16rem;
+  }
+  .circle-item {
+    width: 18rem;
+  }
+  .menu-title {
+    bottom: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-circle2 {
+    border-width: 18px;
+    padding-bottom: 11rem;
+  }
+  .circle-item2 {
+    width: 13rem;
+  }
+}
+
+.reviews {
+  background-image: url('/assets/testimonials-bg 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }

@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div className="relative hero-banner">
       <img
-        class="absolute top-0 h-full w-full object-hero-middle sm:object-top"
+        className="absolute top-0 h-full w-full object-hero-middle lg:object-cover lg:object-center sm:object-top"
         src="/assets/home-banner.png"
       />
       <div className="relative py-16 px-4 sm:px-32 z-10">
