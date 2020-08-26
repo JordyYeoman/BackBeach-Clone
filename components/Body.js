@@ -3,6 +3,9 @@ import Welcome from '../components/Welcome';
 import Specials from '../components/Specials';
 import FreshNotice from '../components/FreshNotice';
 import Reviews from '../components/Reviews';
+import SignUp from '../components/SignUp';
+import Socials from '../components/Socials';
+import Contact from '../components/Contact';
 
 const Body = () => {
   return (
@@ -12,6 +15,9 @@ const Body = () => {
       <Specials />
       <FreshNotice />
       <Reviews />
+      <SignUp />
+      <Socials />
+      <Contact />
     </div>
   );
 };

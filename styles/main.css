@@ -115,3 +115,10 @@
   background-size: cover;
   background-blend-mode: multiply;
 }
+
+.signUp {
+  background-image: url('/assets/subscribe-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
