@@ -1,6 +1,6 @@
 const Welcome = () => {
   return (
-    <section className="px-4 flex justify-center">
+    <section className="flex justify-center px-24 lg:px-48 items-center">
       <div className="xl:max-w-screen-xl">
         <div className="mb-8 flex flex-col border-b-2 border-gray-200">
           <h2 className="text-red-300 Pacifico text-5xl pl-8">Welcome to</h2>

@@ -1,6 +1,6 @@
 const Reviews = () => {
   return (
-    <div className="Fredericka text-2xl text-white flex flex-col bg-center justify-center reviews py-32">
+    <div className="Fredericka text-2xl text-white flex flex-col bg-center justify-center reviews py-32 items-center">
       <div className="w-full -mt-64 hidden sm:flex flex-col flex-wrap sm:flex-row justify-center items-center pb-24 xl:max-w-screen-xl">
         <div className="relative py-4 px-4">
           <div className="relative rounded-full border-red-500 hero-circle2 circle-item2">

@@ -1,55 +1,43 @@
-const Contact = () => {
+const Specials = () => {
   return (
-    <section className="px-4 flex justify-center">
-      <div className="xl:max-w-screen-xl">
-        <div className="mb-8 flex flex-col border-b-2 border-gray-200">
-          <h2 className="text-red-300 Pacifico text-5xl pl-8">Welcome to</h2>
-          <h3 className="text-5xl Fredericka">
-            The BackBeach<br className="block sm:hidden"></br> Eating House
-          </h3>
-        </div>
-        <div className="sourceSans">
-          <span>
-            <p className="text-gray-800">
-              There's only one place like the Backbeach Cafe & resturaunt,
-              located on Bunbury;s Backbeach with uninterrupted views of crisp
-              white sand and the Indian Ocean, The perfect place to eat, relax
-              and enjoy.
-            </p>
-            <p className="text-gray-600">
-              We are proud to support local business and local producers bu
-              sourcing as much as possible locally, including fish from Aufusta,
-              beef and chicken from Western Australia (DBC), coffee from
-              Yallingup and wines from Ferguson Valley, Margaret River and
-              throughout the South West.
-            </p>
-          </span>
-          <button className="bg-blue-900 text-lg mt-4 text-white border-white border-2 border-dashed Fredericka p-2 sm:p-4 rounded-lg flex items-center">
-            Read More
-            <span className="pl-16">
-              <svg
-                version="1.1"
-                id="Capa_1"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20px"
-                height="20px"
-                fill="white"
-                viewBox="0 0 451.846 451.847"
-              >
-                <g>
-                  <path
-                    d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"
-                  />
-                </g>
-              </svg>
-            </span>
-          </button>
+    <section className="relative Fredericka px-16 py-20 background-img1 mt-16  flex justify-center">
+      <div className="lg:flex lg:items-center relative z-10">
+        <div className="xl:max-w-screen-xl">
+          <div className="mb-8 flex flex-col border-b-2 border-teal-200">
+            <h2 className="text-red-300 Pacifico text-5xl pl-8">Contact</h2>
+            <h3 className="text-5xl Fredericka ">
+              Send us a message below<br className="block sm:hidden"></br>
+            </h3>
+          </div>
+          <form className="flex  justify-between">
+            <div className="flex flex-col w-1/2 pr-2">
+              <input
+                className="border-teal-400 my-2 border-2 border-dashed rounded-md p-2"
+                placeholder="Your Name"
+              ></input>
+              <input
+                className="border-teal-400 my-2 border-2 border-dashed rounded-md p-2"
+                placeholder="Your Phone"
+              ></input>
+              <input
+                className="border-teal-400 border-2 my-2 border-dashed rounded-md p-2"
+                placeholder="Your Email"
+              ></input>
+            </div>
+            <div className="flex flex-col w-1/2">
+              <input
+                className="border-teal-400 border-2 my-2 border-dashed rounded-md p-2 min-h-1/2"
+                placeholder="Your Message"
+              ></input>
+              <button className="bg-red-500 text-lg mt-4 w-full text-white border-white border-2 border-dashed Fredericka p-1 sm:p-2 rounded-lg flex items-center">
+                Subscribe
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
   );
 };
 
-export default Contact;
+export default Specials;

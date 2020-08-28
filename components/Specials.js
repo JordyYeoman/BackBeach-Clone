@@ -1,7 +1,7 @@
 const Specials = () => {
   return (
-    <section className="relative Fredericka px-16 py-20 background-img1 mt-16 specialsBanner flex justify-center">
-      <div className="xl:max-w-screen-xl lg:flex lg:items-center relative z-10">
+    <section className="relative Fredericka px-16 py-20 background-img1 mt-16 pl-40 specialsBanner flex justify-center">
+      <div className="lg:max-w-screen-lg xl:max-w-screen-xl lg:flex lg:items-center relative z-10">
         <div className="relative py-4 flex items-center justify-center">
           <div className="relative rounded-full border-blue-900 hero-circle circle-item">
             <img
