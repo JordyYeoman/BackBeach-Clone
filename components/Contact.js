@@ -5,7 +5,7 @@ const Specials = () => {
         <div className="xl:max-w-screen-xl">
           <div className="mb-8 flex flex-col border-b-2 border-teal-200">
             <h2 className="text-red-300 Pacifico text-5xl pl-8">Contact</h2>
-            <h3 className="text-5xl Fredericka ">
+            <h3 className="text-6xl md:text-5xl Fredericka ">
               Send us a message below<br className="block sm:hidden"></br>
             </h3>
           </div>

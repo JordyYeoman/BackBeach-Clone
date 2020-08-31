@@ -3,7 +3,7 @@ const FreshNotice = () => {
     <section className="mt-8 servedFresh relative flex py-24 lg:py-32 px-2 sm:px-6 lg:px-24 xl:px-48 items-center justify-center">
       <div className="lg:max-w-screen-lg">
         <div className="mb-8 flex flex-col border-b-2 border-teal-200">
-          <h2 className="text-teal-300 Pacifico text-4xl pl-8 pt-12">
+          <h2 className="text-teal-300 Pacifico text-5xl md:text-4xl pl-8 pt-12">
             Served Fresh
           </h2>
           <h3 className="text-5xl Fredericka text-white">

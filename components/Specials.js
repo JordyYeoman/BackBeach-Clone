@@ -16,7 +16,7 @@ const Specials = () => {
             10.6.20
           </span>
         </div>
-        <div className="px-16">
+        <div className="px-2 md:px-16">
           <div className="mb-8 flex flex-col ">
             <h2 className="text-6xl text-red-400">Mother's Day</h2>
           </div>
