@@ -33,10 +33,10 @@
 }
 .hero-circle {
   border-width: 18px;
-  padding-bottom: 22rem;
+  padding-bottom: 14rem;
 }
 .circle-item {
-  width: 24rem;
+  width: 16rem;
 }
 
 .menu-title {
@@ -106,6 +106,16 @@
   }
   .circle-item2 {
     width: 13rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-circle {
+    border-width: 18px;
+    padding-bottom: 17rem;
+  }
+  .circle-item {
+    width: 20rem;
   }
 }
 

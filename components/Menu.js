@@ -1,11 +1,11 @@
 const Menu = () => {
   return (
     <div className="Fredericka text-2xl text-white flex justify-center">
-      <div className="w-full flex flex-col flex-wrap sm:flex-row justify-around items-center pt-12 pb-12 xl:max-w-screen-xl">
+      <div className="w-full flex flex-col flex-wrap sm:flex-row justify-center items-center pt-12 pb-12 xl:max-w-screen-xl">
         <div className="relative py-4 px-4">
           <div className="relative rounded-full border-red-500 hero-circle circle-item">
             <img
-              class="rounded-full absolute top-0 h-full w-full object-cover"
+              className="rounded-full absolute top-0 h-full w-full object-cover"
               src="/assets/call-to-action-1.png"
             />
           </div>
@@ -13,10 +13,10 @@ const Menu = () => {
             Dining Menu
           </span>
         </div>
-        <div className="relative py-4 px-4">
+        <div className="relative py-4 px-4 lg:px-8">
           <div className="relative rounded-full border-blue-400 hero-circle circle-item">
             <img
-              class="rounded-full absolute top-0 h-full w-full object-cover"
+              className="rounded-full absolute top-0 h-full w-full object-cover"
               src="/assets/call-to-action-1.png"
             />
           </div>
@@ -27,7 +27,7 @@ const Menu = () => {
         <div className="relative py-4 px-4">
           <div className="relative rounded-full border-gray-800 hero-circle circle-item">
             <img
-              class="rounded-full absolute top-0 h-full w-full object-cover"
+              className="rounded-full absolute top-0 h-full w-full object-cover"
               src="/assets/call-to-action-1.png"
             />
           </div>

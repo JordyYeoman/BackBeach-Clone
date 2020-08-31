@@ -1,7 +1,7 @@
 const Welcome = () => {
   return (
-    <section className="flex justify-center px-24 lg:px-48 items-center">
-      <div className="xl:max-w-screen-xl">
+    <section className="flex justify-center px-2 sm:px-6 lg:px-24 xl:px-48 items-center">
+      <div className="lg:max-w-screen-lg">
         <div className="mb-8 flex flex-col border-b-2 border-gray-200">
           <h2 className="text-red-300 Pacifico text-5xl pl-8">Welcome to</h2>
           <h3 className="text-5xl Fredericka">

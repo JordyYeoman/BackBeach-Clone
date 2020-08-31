@@ -5,7 +5,7 @@ const Reviews = () => {
         <div className="relative py-4 px-4">
           <div className="relative rounded-full border-red-500 hero-circle2 circle-item2">
             <img
-              class="rounded-full absolute top-0 h-full w-full object-cover"
+              className="rounded-full absolute top-0 h-full w-full object-cover"
               src="/assets/call-to-action-1.png"
             />
           </div>
@@ -13,7 +13,7 @@ const Reviews = () => {
         <div className="relative py-4 px-4">
           <div className="relative rounded-full border-blue-400 hero-circle2 circle-item2">
             <img
-              class="rounded-full absolute top-0 h-full w-full object-cover"
+              className="rounded-full absolute top-0 h-full w-full object-cover"
               src="/assets/call-to-action-1.png"
             />
           </div>
@@ -21,7 +21,7 @@ const Reviews = () => {
         <div className="relative py-4 px-4">
           <div className="relative rounded-full border-gray-800 hero-circle2 circle-item2">
             <img
-              class="rounded-full absolute top-0 h-full w-full object-cover"
+              className="rounded-full absolute top-0 h-full w-full object-cover"
               src="/assets/call-to-action-1.png"
             />
           </div>
@@ -32,9 +32,8 @@ const Reviews = () => {
         <div className="rounded-lg bg-red-500 sourceSans text-base w-full md:w-1/2 p-8 border-white border-dashed border-2">
           <p className="border-b border-white-200 pb-4">
             "Ah! What a place. I could ho have breakfast every single day and
-            not get tired by the views. The staff are very klind and helpful,
-            and the food is AMAZING! A MUST bisit place if you're visiting
-            Bunbury!
+            not get tired by the views. The staff are very kind and helpful, and
+            the food is AMAZING! A MUST visit place if you're visiting Bunbury!
           </p>
           <p className="pt-4">- Jordy Yeoman</p>
         </div>

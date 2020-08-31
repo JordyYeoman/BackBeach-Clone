@@ -1,7 +1,7 @@
 const Socials = () => {
   const iconSizes = '20px';
   return (
-    <section className="px-24 py-20 lg:px-48 xl:px-64 flex justify-center">
+    <section className="py-20 pb-0 md:pb-20 px-2 sm:px-6 lg:px-48 xl:px-64 flex justify-center">
       <div className="lg:max-w-screen-lg">
         <div className="mb-8 flex flex-col border-b-2 border-gray-200">
           <h2 className="text-red-300 Pacifico text-5xl pl-8">Socials</h2>
@@ -14,7 +14,7 @@ const Socials = () => {
         <div className="rounded-lg border-red-300 border-2 p-4 sourceSans">
           <div className="Fredericka text-3xl flex items-center pb-12">
             <svg
-              enable-background="new 0 0 24 24"
+              enableBackground="new 0 0 24 24"
               height="40"
               viewBox="0 0 24 24"
               width="40"
@@ -31,8 +31,8 @@ const Socials = () => {
             </svg>
             <p className="px-4">What's new on Facebook</p>
           </div>
-          <div className="flex">
-            <div className="relative">
+          <div className="flex flex-col md:flex-row">
+            <div className="relative pb-4 md:pb-0">
               <img
                 className="top-0 w-auto object-cover"
                 src="/assets/news-placeholder.png"
@@ -146,7 +146,7 @@ const Socials = () => {
               </div>
               <div>
                 <p>
-                  Check out the view (abd the dolphins, they're out there
+                  Check out the view (and the dolphins, they're out there
                   today!) Lorem Ipsum Ooohhh Yeah lets go!
                 </p>
               </div>

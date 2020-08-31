@@ -1,11 +1,11 @@
 const Specials = () => {
   return (
-    <section className="relative Fredericka px-16 py-20 background-img1 mt-16 pl-40 specialsBanner flex justify-center">
+    <section className="relative Fredericka px-16 py-20 background-img1 mt-16 md:pl-40 specialsBanner flex justify-center">
       <div className="lg:max-w-screen-lg xl:max-w-screen-xl lg:flex lg:items-center relative z-10">
         <div className="relative py-4 flex items-center justify-center">
           <div className="relative rounded-full border-blue-900 hero-circle circle-item">
             <img
-              class="rounded-full absolute top-0 h-full w-full object-cover"
+              className="rounded-full absolute top-0 h-full w-full object-cover"
               src="/assets/news-placeholder.png"
             />
           </div>

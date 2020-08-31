@@ -2,9 +2,9 @@ const Footer = () => {
   const iconSizes = '20px';
 
   return (
-    <div className="flex flex-col space-y-10 items-center justify-center bg-white py-24 sm:py-6 font-semibold text-gray-600 ">
+    <div className="flex flex-col space-y-10 items-center justify-center bg-white py-0 md:py-14 sm:py-6 font-semibold text-gray-600 ">
       <div>
-        <ul className="flex flex-wrap space-x-2 sm:space-x-2 md:space-x-6 lg:space-x-10">
+        <ul className="flex flex-col md:flex-row text-center flex-wrap space-x-2 sm:space-x-2 md:space-x-6 lg:space-x-10 text-xl md:text-base">
           <li className="hover:text-gray-900 cursor-pointer">Home</li>
           <li className="hover:text-gray-900 cursor-pointer">Dining</li>
           <li className="hover:text-gray-900 cursor-pointer">Lunch</li>
